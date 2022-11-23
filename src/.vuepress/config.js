@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'AKC Bitácora',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,6 +34,10 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'Nuevo',
+        link: '/nuevo/',
+      },
+      {
         text: 'Guide',
         link: '/guide/',
       },
@@ -42,8 +46,8 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'AntonioKC',
+        link: 'https://antoniokc.akcademia.xyz/'
       }
     ],
     sidebar: {

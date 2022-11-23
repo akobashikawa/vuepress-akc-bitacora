@@ -1,15 +1,15 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Lo que aprendi hoy
-actionText: Quick Start →
+tagline: Lo que aprendí hoy
+actionText: Entrar →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Antonio Kobashikawa with ❤️
+- title: Frontend
+  details: HTML, CSS, Javascript, Vue, React, Angular
+- title: Backend
+  details: NodeJS, ExpressJS, Java, Spring Boot, PHP
+- title: Devops
+  details: Windows, Linux, Docker, Jenkins
+footer: Made by Antonio Kobashikawa Carrasco with ❤️
 ---
