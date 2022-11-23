@@ -1,0 +1,19 @@
+{
+  "name": "AKC Bitacora",
+  "version": "0.0.1",
+  "description": "Lo que aprendi hoy",
+  "main": "index.js",
+  "authors": {
+    "name": "Antonio Kobashikawa",
+    "email": "akobashikawa@gmail.com"
+  },
+  "repository": "git@github.com:akobashikawa/vuepress-akc-bitacora.git/AKC Bitacora",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
