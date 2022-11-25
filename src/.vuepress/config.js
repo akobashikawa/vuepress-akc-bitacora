@@ -42,8 +42,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Referencias',
+        link: '/referencias/'
       },
       {
         text: 'AntonioKC',

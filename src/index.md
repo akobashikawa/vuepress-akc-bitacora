@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: ./Koi_carp_2.svg
 tagline: Lo que aprendí hoy
 actionText: Entrar →
 actionLink: /guide/
