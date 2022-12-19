@@ -3,7 +3,7 @@ home: true
 heroImage: ./Koi_carp_2.svg
 tagline: Lo que aprendí hoy
 actionText: Entrar →
-actionLink: /guide/
+actionLink: /notas/
 features:
 - title: Frontend
   details: HTML, CSS, Javascript, Vue, React, Angular
