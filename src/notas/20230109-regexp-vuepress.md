@@ -7,6 +7,7 @@
 ## Vuepress: wikilinks, dynamic sidebar
 - docs/  (o src/), contiene la fuente de lo que se publicará
 - `.vuepress/` contiene los internals de vuepress
+- `.vuepress/config.js` contiene la configuración
 - `.vuepress/dist/` contiene lo que se publicará
 - `vuepress-plugin-internal-link` permite reconocer wikilinks
     - `[[aaa_bbb/ccc]]`
@@ -24,5 +25,5 @@
     }
     ```
 - [Automatic Dynamic Sidebars in Vuepress](https://techformist.com/automatic-dynamic-sidebar-vuepress/)
-- Los cambios que se hacen en config.js, requieren reiniciar la ejecución.
+- Los cambios que se hacen en `config.js`, requieren reiniciar la ejecución.
 	- Además de hacer un cambio en la página que se quiere visualizar.
