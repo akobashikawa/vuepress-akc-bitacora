@@ -12,15 +12,14 @@ TODOs.md
 
 # Editors
 .idea
+.obsidian
 
 # VuePress temp directory
 .temp
 
 # Docs dist directory
-/vuepress
+src/.vuepress/dist
 
 # Typescript build dist
 packages/@vuepress/shared-utils/lib/
 packages/@vuepress/shared-utils/types/
-
-dist

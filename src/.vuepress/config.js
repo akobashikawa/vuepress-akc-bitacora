@@ -1,4 +1,6 @@
-const { description } = require('../../package')
+const { description } = require('../../package');
+const fs = require("fs");
+const path = require("path");
 
 module.exports = {
   /**
@@ -31,15 +33,11 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: 'Última versión',
     nav: [
       {
         text: 'Notas',
         link: '/notas/',
-      },
-      {
-        text: 'Guide',
-        link: '/guide/',
       },
       {
         text: 'Referencias',
@@ -51,24 +49,44 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
+      // '/notas/': [
+      //   {
+      //     title: 'Notas',
+      //     collapsable: false,
+      //     sidebarDepth: 2,
+      //     children: [
+      //       '',
+      //       ['20221123-vuepress-git', '20221123: vuepress, git'],
+      //     ]
+      //   }
+      // ],
+      '/notas/': getSideBar('notas', 'Notas'),
     }
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
+  plugins: {
+    '@vuepress/plugin-back-to-top': {},
+    '@vuepress/plugin-medium-zoom': {},
+    'internal-link': {
+      linkPattern: /\[\[([\w\s/-]+)(\|(([\w\s/-])+))?\]\]/
+    }
+  }
+}
+
+function getSideBar(folder, title) {
+  const extension = [".md"];
+
+  const files = fs
+    .readdirSync(path.join(`${__dirname}/../${folder}`))
+    .filter(
+      (item) =>
+        item.toLowerCase() != "readme.md" &&
+        fs.statSync(path.join(`${__dirname}/../${folder}`, item)).isFile() &&
+        extension.includes(path.extname(item))
+    );
+
+  return [{ title: title, children: ["", ...files] }];
 }

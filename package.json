@@ -14,7 +14,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3",
-    "@vue/babel-preset-app": "4.5.18"
+    "@vue/babel-preset-app": "4.5.18",
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-internal-link": "^0.2.0"
   }
 }

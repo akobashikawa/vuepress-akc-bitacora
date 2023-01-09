@@ -1,7 +1,4 @@
----
-sidebar: auto
----
-# 20221123
+# 20221123: vuepress, git
 
 ## VuePress
 - Framework para generar sites estáticos.
