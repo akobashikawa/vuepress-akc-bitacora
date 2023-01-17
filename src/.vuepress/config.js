@@ -60,7 +60,7 @@ module.exports = {
       //     ]
       //   }
       // ],
-      '/notas/': getSideBar('notas', 'Notas'),
+      '/notas/': getSideBar('notas', 'Notas', true),
     }
   },
 
@@ -76,10 +76,10 @@ module.exports = {
   }
 }
 
-function getSideBar(folder, title) {
+function getSideBar(folder, title, desc) {
   const extension = [".md"];
 
-  const files = fs
+  let files = fs
     .readdirSync(path.join(`${__dirname}/../${folder}`))
     .filter(
       (item) =>
@@ -87,6 +87,10 @@ function getSideBar(folder, title) {
         fs.statSync(path.join(`${__dirname}/../${folder}`, item)).isFile() &&
         extension.includes(path.extname(item))
     );
+
+  if (desc) {
+    files = files.reverse();
+  }
 
   return [{ title: title, children: ["", ...files] }];
 }
