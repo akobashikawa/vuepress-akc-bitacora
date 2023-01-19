@@ -8,7 +8,7 @@
 		- El cliente toma los datos que recibió el canal y se los pasa a jenkins
 - my-smee-client
 	- package.json
-```json
+	```json
 {
   "name": "my-smee-client",
   "version": "1.0.0",
@@ -26,6 +26,22 @@
   }
 }
 ```
+	- index.js
+```js
+const SmeeClient = require('smee-client');
+
+const smee = new SmeeClient({
+  source: 'https://smee.io/my_chanel_id',
+  target: 'http://127.0.0.1:9090/jenkins/github-webhook/',
+  logger: console
+});
+
+const events = smee.start();
+
+// Stop forwarding events
+//events.close()
+```
+
 ## Smee Client: ECONNREFUSED
 - Usando smee-client, obtengo ECONNREFUSED
 - Sin embargo, el servicio está corriendo y puedo probarlo, con curl, por ejemplo.
