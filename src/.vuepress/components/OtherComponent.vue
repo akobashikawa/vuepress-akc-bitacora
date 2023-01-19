@@ -1,14 +1,6 @@
 <template>
-  <p class="demo">This is another component</p>
-  {{ a }}
+  <p class="demo">
+    This is another component
+    {{ new Date() }}
+  </p>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      a: 1
-    }
-  }
-}
-</script>
