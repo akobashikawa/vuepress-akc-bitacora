@@ -1,4 +1,4 @@
-# 20221123: vuepress, git
+# 20221123: Vuepress, Git
 
 ## VuePress
 - Framework para generar sites estáticos.

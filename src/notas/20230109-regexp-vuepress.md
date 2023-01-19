@@ -1,4 +1,4 @@
-# 20230109: regexp, vuepress
+# 20230109: Regexp, Vuepress
 
 ## Javascript: regexp 101
 - [Regular Expressions 101](https://regex101.com/)
