@@ -44,7 +44,7 @@
     - Pruebo el deploy manual
   - En github, modifico el readme y compruebo el deploy automático
 
-## Git
+## Git: vim, unrelated histories
 
 - Establecer vim como editor
   - git config --global core.editor "vim"
