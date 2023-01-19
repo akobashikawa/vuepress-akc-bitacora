@@ -13,7 +13,6 @@
   - package.json
 
   ```json
-
   {
     "name": "my-smee-client",
     "version": "1.0.0",
@@ -30,7 +29,6 @@
       "smee-client": "^1.2.3"
     }
   }
-
   ```
 
   - index.js

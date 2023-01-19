@@ -1,6 +1,6 @@
 # 20221123: Vuepress, Git
 
-## VuePress
+## VuePress: netlify
 
 - Framework para generar sites estáticos.
   - [VuePress](https://vuepress.vuejs.org/)
