@@ -1,5 +1,5 @@
-# Lo que aprendí hoy
+# Notas
 
-- Notas sobre las cosas que voy aprendiendo cada día.
-- Las notas se van organizando en torno a temas o tópicos.
+- Anoto aquí las cosas que voy aprendiendo o me parecen interesantes para compartir.
+- Las notas luego se van organizando en torno a temas o tópicos.
 
