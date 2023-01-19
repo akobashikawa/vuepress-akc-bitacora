@@ -1,8 +1,32 @@
 # 20230119: Smee Client
-## Smee Client: ECONNREFUSED
+## Smee
 -  [smee.io](https://smee.io/) es un proyecto que permite comunicar github con jenkis cruzando el firewall
-	- En smee
+	- En smee, se crea un canal
 	- En la configuración webhooks de github, se indica el canal smee
+	- En la máquina donde corre jenkins, se instala un cliente
+		- El cliente nota cuando el canal smee ha sido invocado
+		- El cliente toma los datos que recibió el canal y se los pasa a jenkins
+- my-smee-client
+	- package.json
+```json
+{
+  "name": "my-smee-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js",
+    "smee": "smee --url https://smee.io/my_chanel_id --target http://127.0.0.1:9090/jenkins/github-webhook/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "smee-client": "^1.2.3"
+  }
+}
+```
+## Smee Client: ECONNREFUSED
 - Usando smee-client, obtengo ECONNREFUSED
 - Sin embargo, el servicio está corriendo y puedo probarlo, con curl, por ejemplo.
 - Lo soluciono reemplazando localhost por 127.0.0.1
