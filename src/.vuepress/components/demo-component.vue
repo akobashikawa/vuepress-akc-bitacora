@@ -1,6 +1,6 @@
 <template>
   <p class="demo">
-    {{ msg }}
+    {{ msg }} {{ 1 + 1 }}
   </p>
 </template>
 
