@@ -59,3 +59,54 @@
 
 - [ECONNREFUSED error with node.js that does not occur in other clients](https://stackoverflow.com/questions/10643965/econnrefused-error-with-node-js-that-does-not-occur-in-other-clients)
   - <https://stackoverflow.com/a/10646218/740552>
+
+## Windows: Smee client como service
+
+- [node-windows](https://github.com/coreybutler/node-windows) facilita correr una app como servicio en windows.
+
+- service-install.js
+
+```js
+var Service = require('node-windows').Service;
+
+// Create a new service object
+var svc = new Service({
+  name:'CA Smee Client',
+  description: 'Smee client para Jenkins',
+  script: 'C:\\tools\\my-smee-client\\index.js',
+  nodeOptions: [
+    '--harmony',
+    '--max_old_space_size=4096'
+  ]
+  //, workingDirectory: '...'
+  //, allowServiceLogon: true
+});
+
+// Listen for the "install" event, which indicates the
+// process is available as a service.
+svc.on('install',function(){
+  svc.start();
+});
+
+svc.install();
+```
+
+- service-uninstall.js
+
+```js
+var Service = require('node-windows').Service;
+
+// Create a new service object
+var svc = new Service({
+  name:'CA Smee Client',
+  script: 'C:\\tools\\ca-smee-client\\index.js',
+});
+
+// Listen for the "uninstall" event
+svc.on('uninstall',function(){
+  console.log('Uninstall complete.');
+  console.log('The service exists: ', svc.exists);
+});
+
+svc.uninstall();
+```
