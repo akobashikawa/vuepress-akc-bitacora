@@ -71,7 +71,7 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'CA Smee Client',
+  name:'My Smee Client',
   description: 'Smee client para Jenkins',
   script: 'C:\\tools\\my-smee-client\\index.js',
   nodeOptions: [
@@ -98,7 +98,7 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'CA Smee Client',
+  name:'My Smee Client',
   script: 'C:\\tools\\ca-smee-client\\index.js',
 });
 
