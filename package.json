@@ -15,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vue/babel-preset-app": "4.5.18",
+    "gh-pages": "^4.0.0",
     "vuepress": "^1.9.8",
     "vuepress-plugin-internal-link": "^0.2.0"
   }
