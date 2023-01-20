@@ -70,4 +70,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 ```
 
-- Con esto, cada vez que hago push, se produce el despliegue del site publicado en https://akobashikawa.github.io/vuepress-akc-bitacora/
+- Con esto, cada vez que hago push, se produce el despliegue del site publicado en [https://akobashikawa.github.io/vuepress-akc-bitacora/](https://akobashikawa.github.io/vuepress-akc-bitacora/)
