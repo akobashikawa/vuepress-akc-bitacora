@@ -1,17 +1,4 @@
-name: Build and Deploy
-on: [push]
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
-
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: akobashikawa/vuepress-akc-bitacora
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: npm ci && npm run build
-        BUILD_DIR: src/.vuepress/dist/
+- name: Vuepress deploy
+  # You may pin to the exact commit or the version.
+  # uses: jenkey2011/vuepress-deploy@c125854a55a2d3fbe1847e0fc25a4aa662582520
+  uses: jenkey2011/vuepress-deploy@v1.8.1
