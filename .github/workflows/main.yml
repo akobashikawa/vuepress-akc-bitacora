@@ -8,8 +8,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: testthedocs/github-pages-deploy-action@master
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: src/.vuepress/dist/ # The folder, the action should deploy.
-        BUILD_SCRIPT: npm ci && npm run build # The build script the action should run prior to deploying.
+        TARGET_REPO: akobashikawa/vuepress-akc-bitacora
+        TARGET_BRANCH: gh_pages
+        BUILD_SCRIPT: npm i && npm run build
+        BUILD_DIR: src/.vuepress/dist/
