@@ -1,38 +1,22 @@
-name: Deploy to GitHub pages
+name: Deploy to GitHub Pages
+
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-    - name: Generate static VuePress files
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-    - run: npm ci
-    - run: npm run build
-    
-    - name: Configure git to trust the workspace despite the different owner
-      run:
-        git config --global --add safe.directory "$GITHUB_WORKSPACE"
-
-    - name: Init new repo in dist folder and commit generated files
+    - name: Build and Deploy
       run: |
-        cd src/.vuepress/dist
-        git init
-        git add -A
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m 'deploy'
-
-    - name: Force push to destination branch
-      uses: ad-m/github-push-action@v0.5.0
-      with:
-        github_token: ${{ secrets.ACCESS_TOKEN }}
-        branch: gh-pages
-        force: true
-        directory: ./src/.vuepress/dist
+        npm install
+        npm run build
+        npx gh-pages -d dist
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
