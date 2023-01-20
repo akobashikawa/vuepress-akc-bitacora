@@ -12,8 +12,10 @@
 		- Instalo el módulo gh-pages
 			- `npm install --save-dev gh-pages`
 		- Agrego el script para el deploy, indicando el directorio del `dist`
-		- En `config.js`, especifico la base, ya que será bajo una carpeta y no en el raíz:
-			- `base: '/vuepress-akc-bitacora/'` 
+		- En `config.js`, se especifica la base:
+			- Para deployar en gh-pages, sería: `base: '/vuepress-akc-bitacora/'` 
+			- Para deployar en netlify, sería: base: `/`
+			- Para que funciones para ambos ambientes, sería: `base: process.env.VUEPRESS_BASE || '/',` donde `VUEPRESS_BASE` es una variable de ambiente cuyo valor se puede indicar el el yml del action.
 
 - package.json
 
@@ -73,6 +75,7 @@ jobs:
         npm run deploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        VUEPRESS_BASE: "/vuepress-akc-bitacora/"
 ```
 
 - Con esto, cada vez que hago push, se produce el despliegue del site publicado en [https://akobashikawa.github.io/vuepress-akc-bitacora/](https://akobashikawa.github.io/vuepress-akc-bitacora/)
