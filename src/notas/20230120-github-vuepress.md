@@ -13,8 +13,8 @@
 			- `npm install --save-dev gh-pages`
 		- Agrego el script para el deploy, indicando el directorio del `dist`
 		- En `config.js`, se especifica la base:
-			- Para deployar en gh-pages, sería: `base: '/vuepress-akc-bitacora/'` 
-			- Para deployar en netlify, sería: base: `/`
+			- Para deployar en **gh-pages**, sería: `base: '/vuepress-akc-bitacora/'` 
+			- Para deployar en **netlify**, sería: `base: '/'`
 			- Para deployar adecuadamente en ambos ambientes, sería: `base: process.env.VUEPRESS_BASE || '/',` donde `VUEPRESS_BASE` es una variable de ambiente cuyo valor se puede indicar el el yml del action.
 
 - package.json
