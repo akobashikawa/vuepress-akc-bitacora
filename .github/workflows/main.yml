@@ -29,4 +29,4 @@ jobs:
         github_token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages
         force: true
-        directory: ./docs/.vuepress/dist
+        directory: ./src/.vuepress/dist
