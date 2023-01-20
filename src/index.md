@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./Koi_carp_2.svg
+heroImage: ./img/Koi_carp_2.svg
 tagline: Lo que aprendí hoy
 actionText: Entrar →
 actionLink: /notas/
