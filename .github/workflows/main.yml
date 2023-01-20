@@ -14,6 +14,9 @@ jobs:
     - run: npm ci
     - run: npm run build
     
+    - name: Change Owner of Container Working Directory
+      run: chown root:root .
+    
     - name: Init new repo in dist folder and commit generated files
       run: |
         cd src/.vuepress/dist
@@ -21,7 +24,6 @@ jobs:
         git add -A
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git config --global --add safe.directory /github/workspace/src/.vuepress/dist
         git commit -m 'deploy'
 
     - name: Force push to destination branch
