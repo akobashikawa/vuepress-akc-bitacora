@@ -1,17 +1,38 @@
-name: Build and Deploy
-on: [push]
+name: Deploy to GitHub pages
+on:
+  push:
+    branches: [ main ]
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: akobashikawa/vuepress-akc-bitacora
-        TARGET_BRANCH: gh_pages
-        BUILD_SCRIPT: npm i && npm run build
-        BUILD_DIR: src/.vuepress/dist/
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Generate static VuePress files
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - run: npm ci
+    - run: npm run build
+    
+    - name: Configure git to trust the workspace despite the different owner
+      run:
+        git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+    - name: Init new repo in dist folder and commit generated files
+      run: |
+        cd docs/.vuepress/dist
+        git init
+        git add -A
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m 'deploy'
+
+    - name: Force push to destination branch
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages
+        force: true
+        directory: ./src/.vuepress/dist
