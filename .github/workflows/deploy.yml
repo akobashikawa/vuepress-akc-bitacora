@@ -17,6 +17,7 @@ jobs:
       run: |
         git config --global user.email "akobashikawa@gmail.com"
         git config --global user.name "Antonio Kobashikawa"
+        git remote set-url origin https://${{ secrets.ACCESS_TOKEN }}@github.com/akobashikawa/vuepress-akc-bitacora.git
 
     - name: Build and Deploy
       run: |
