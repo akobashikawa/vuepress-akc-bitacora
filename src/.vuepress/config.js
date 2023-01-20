@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = {
-  // base: '/vuepress-akc-bitacora/',
+  base: process.env.VUEPRESS_BASE || '/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */

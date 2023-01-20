@@ -1,6 +1,8 @@
 # 20230120: Github Actions
+
 ## Github actions: Desplegando Vuepress
-- Después de varias horas intentando sin éxito las recetas de varios blogs, y del mismo marketplace de github, conversando con chatGPT llegué a esta solución:
+
+- Después de varias horas intentando sin éxito las recetas de varios blogs, y del mismo marketplace de github, conversando con chatGPT llegué a esta solución.
 - Preparativos
 	- En mi profile, Settings, genero un Personal Access Toke (PAT) y copio su valor
 	- En el repositorio
@@ -10,6 +12,9 @@
 		- Instalo el módulo gh-pages
 			- `npm install --save-dev gh-pages`
 		- Agrego el script para el deploy, indicando el directorio del `dist`
+		- En `config.js`, especifico la base, ya que será bajo una carpeta y no en el raíz:
+			- `base: '/vuepress-akc-bitacora/'` 
+
 - package.json
 
 ```json
