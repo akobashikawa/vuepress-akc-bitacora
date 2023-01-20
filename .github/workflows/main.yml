@@ -5,12 +5,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: npm ci && npm run build
-        BUILD_DIR: src/.vuepress/dist/
+    - name: Generate static VuePress files
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - run: npm ci
+    - run: npm run build
+    
+    - name: Init new repo in dist folder and commit generated files
+      run: |
+        cd docs/.vuepress/dist
+        git init
+        git add -A
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m 'deploy'
+
+    - name: Force push to destination branch
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages
+        force: true
+        directory: ./docs/.vuepress/dist
