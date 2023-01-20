@@ -13,10 +13,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Build and Deploy
+    - name: Configure Git
       run: |
         git config --global user.email "akobashikawa@gmail.com"
         git config --global user.name "Antonio Kobashikawa"
+
+    - name: Build and Deploy
+      run: |
         npm ci
         npm run build
         npm run deploy
