@@ -15,6 +15,8 @@ jobs:
 
     - name: Build and Deploy
       run: |
+        git config --global user.email "akobashikawa@gmail.com"
+        git config --global user.name "Antonio Kobashikawa"
         npm ci
         npm run build
         npm run deploy
