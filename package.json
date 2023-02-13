@@ -9,13 +9,14 @@
   },
   "repository": "git@github.com:akobashikawa/vuepress-akc-bitacora.git/AKC Bitacora",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "deploy": "gh-pages -d src/.vuepress/dist"
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build src",
+    "deploy": "npm run build && gh-pages -d src/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
     "@vue/babel-preset-app": "4.5.18",
+    "cross-env": "^7.0.3",
     "gh-pages": "^4.0.0",
     "vuepress": "^1.9.8",
     "vuepress-plugin-internal-link": "^0.2.0"
