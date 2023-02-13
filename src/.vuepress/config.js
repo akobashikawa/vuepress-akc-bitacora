@@ -46,7 +46,7 @@ module.exports = {
       },
       {
         text: 'AntonioKC',
-        link: 'https://antoniokc.akcademia.xyz/'
+        link: 'https://antoniokc.netlify.app/'
       }
     ],
     sidebar: {
