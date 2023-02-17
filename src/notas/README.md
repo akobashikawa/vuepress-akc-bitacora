@@ -1,5 +1,3 @@
-# Notas
+# Lo que aprendí hoy
 
-- Anoto aquí las cosas que voy aprendiendo o me parecen interesantes para compartir.
-- Las notas luego se van organizando en torno a temas o tópicos.
-
+- Windows, Linux, programación, desarrollo web y más.

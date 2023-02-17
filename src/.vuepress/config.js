@@ -95,3 +95,60 @@ function getSideBar(folder, title, desc) {
 
   return [{ title: title, children: ["", ...files] }];
 }
+
+// https://github.com/vuejs/vuepress/issues/1491#issuecomment-538759489
+// modificado por akobashikawa@gmail.com
+// copia todas las imagenes a public en sus respectivas carpetas
+
+// const fs = require("fs");
+// const path = require("path");
+
+function copyStaticFilesToPublic() {
+  const doNotDeleteFolderNames = [new RegExp("^(img)$")];
+  const doNotCopyFilenames = [new RegExp("^.*\\.md$")];
+
+  const doNotCopyFolderNames = [new RegExp("^(\\.vuepress|\\.obsidian)$")];
+
+  const pathToPublicFolder = path.resolve(__dirname, "public");
+  const pathToSrcFolder = path.resolve(__dirname, "../");
+
+  if (fs.existsSync(pathToPublicFolder)) {
+    const names = fs.readdirSync(pathToPublicFolder);
+
+    for (const name of names) {
+      if (!doNotDeleteFolderNames.some((regexp) => regexp.test(name))) {
+        const pathToFolderName = path.resolve(pathToPublicFolder, name);
+        fs.rmdirSync(pathToFolderName, { recursive: true }); // Requires latest version of node.
+      }
+    }
+
+  }
+
+  copyAllStaticFiles(pathToSrcFolder, pathToPublicFolder);
+
+  function copyAllStaticFiles(pathToSourceFolder, pathToDestinationFolder) {
+    if (!fs.existsSync(pathToDestinationFolder)) {
+      fs.mkdirSync(pathToDestinationFolder);
+    }
+
+    const names = fs.readdirSync(pathToSourceFolder);
+
+    for (const name of names) {
+      const pathToSource = path.resolve(pathToSourceFolder, name);
+      const pathToDestination = path.resolve(pathToDestinationFolder, name);
+
+      if (fs.lstatSync(pathToSource).isDirectory()) {
+        if (!doNotCopyFolderNames.some((regexp) => regexp.test(name))) {
+          copyAllStaticFiles(pathToSource, pathToDestination);
+        }
+      } else {
+        if (!doNotCopyFilenames.some((regexp) => regexp.test(name))) {
+          fs.copyFileSync(pathToSource, pathToDestination);
+        }
+      }
+    }
+  }
+}
+
+copyStaticFilesToPublic();
+console.log("config.js runned");
