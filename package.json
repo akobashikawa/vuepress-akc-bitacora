@@ -9,8 +9,10 @@
   },
   "repository": "git@github.com:akobashikawa/vuepress-akc-bitacora.git/AKC Bitacora",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build src",
+    "dev": "vuepress dev src",
+    "dev2": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
+    "build": "vuepress build src",
+    "build2": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build src",
     "deploy": "npm run build && gh-pages -d src/.vuepress/dist"
   },
   "license": "MIT",
