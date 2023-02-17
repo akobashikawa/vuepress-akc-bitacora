@@ -13,7 +13,8 @@
     "dev2": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
     "build": "vuepress build src",
     "build2": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build src",
-    "deploy": "npm run build && gh-pages -d src/.vuepress/dist"
+    "deploy": "npm run build && gh-pages -d src/.vuepress/dist",
+    "deploy2": "npm run build2 && gh-pages -d src/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
