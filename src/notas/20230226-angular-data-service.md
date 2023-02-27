@@ -20,7 +20,7 @@ export class DataService {
   constructor() { }
 
   setBackendBaseUrl(url: string) {
-    this.backendBaseUrlSource.next(url)
+    this.backendBaseUrlSource.next(url);
   }
 }
 ```
@@ -48,7 +48,7 @@ export class BackendBaseUrlComponent implements OnInit, OnDestroy {
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.subscription = this.data.backendBaseUrl.subscribe(url => this.backendBaseUrl = url)
+    this.subscription = this.data.backendBaseUrl.subscribe(url => this.backendBaseUrl = url);
   }
 
   ngOnDestroy() {
@@ -74,7 +74,7 @@ export class HolamundoComponent implements OnInit, OnDestroy {
 	//...
 	constructor(private http: HttpClient, private data: DataService) { }
 	ngOnInit() {
-	    this.subscription = this.data.backendBaseUrl.subscribe(url => this.backendBaseUrl = url)
+	    this.subscription = this.data.backendBaseUrl.subscribe(url => this.backendBaseUrl = url);
 	}
 
 	ngOnDestroy() {
