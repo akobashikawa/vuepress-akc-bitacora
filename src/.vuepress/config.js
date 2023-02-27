@@ -21,7 +21,9 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    [ 'script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-J2E28TZKWR', }, ],
+    [ 'script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-J2E28TZKWR');", ],
   ],
 
   /**
@@ -69,9 +71,9 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: {
-    '@vuepress/plugin-google-analytics': {
-      id: 'G-J2E28TZKWR'
-    },
+    // '@vuepress/plugin-google-analytics': {
+    //   id: 'G-J2E28TZKWR'
+    // },
     '@vuepress/plugin-back-to-top': {},
     '@vuepress/plugin-medium-zoom': {},
     'internal-link': {
