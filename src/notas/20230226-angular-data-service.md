@@ -5,7 +5,7 @@
 - ng generate service data
 - Creo en el data service la variable que deseo compartir y su valor por default. Además un método que me permite modificar su valor.
 
-	```ts
+```ts
 // data.service.ts
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
