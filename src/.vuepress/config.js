@@ -69,7 +69,7 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: {
-    'googleAnalyticsPlugin': {
+    '@vuepress/plugin-google-analytics': {
       id: 'G-J2E28TZKWR'
     },
     '@vuepress/plugin-back-to-top': {},
