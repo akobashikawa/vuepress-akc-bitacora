@@ -1,5 +1,5 @@
 {
-  "name": "AKC Bitacora",
+  "name": "akc-bitacora",
   "version": "0.0.1",
   "description": "Lo que aprendi hoy",
   "main": "index.js",
@@ -19,10 +19,12 @@
   "license": "MIT",
   "devDependencies": {
     "@vue/babel-preset-app": "4.5.18",
-    "@vuepress/plugin-google-analytics": "^2.0.0-beta.60",
+    "@vuepress/plugin-google-analytics": "^1.9.9",
     "cross-env": "^7.0.3",
     "gh-pages": "^4.0.0",
-    "vuepress": "^1.9.8",
+    "vue": "^2.7.14",
+    "vue-server-renderer": "^2.7.14",
+    "vuepress": "^1.9.9",
     "vuepress-plugin-internal-link": "^0.2.0"
   }
 }
