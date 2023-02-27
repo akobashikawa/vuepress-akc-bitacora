@@ -69,6 +69,9 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: {
+    'googleAnalyticsPlugin': {
+      id: 'G-J2E28TZKWR'
+    },
     '@vuepress/plugin-back-to-top': {},
     '@vuepress/plugin-medium-zoom': {},
     'internal-link': {

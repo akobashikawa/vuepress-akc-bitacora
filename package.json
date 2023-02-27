@@ -19,6 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vue/babel-preset-app": "4.5.18",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.60",
     "cross-env": "^7.0.3",
     "gh-pages": "^4.0.0",
     "vuepress": "^1.9.8",
