@@ -1,4 +1,4 @@
-# 20230308: Primero pasos con Lisp
+# 20230308: Primeros pasos con Lisp
 
 - sudo apt install clisp
 - clisp --version
