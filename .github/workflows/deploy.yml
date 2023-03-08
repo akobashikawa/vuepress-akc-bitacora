@@ -21,7 +21,7 @@ jobs:
 
     - name: Build and Deploy
       run: |
-        npm ci
+        yarn
         npm run deploy2
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
