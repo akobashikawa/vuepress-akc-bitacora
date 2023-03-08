@@ -7,7 +7,7 @@
 	Osql -S RSNP-LPT-35\SQL2019 -E
 	1> EXEC sp_password NULL, 'secret123', 'sa'
 	2> GO
-	```
+```
 
 - Accedo como sa
 - Como paso adicional, puedo entrar a *Security*, *Logins* y agregar `<MYHOST>\<MYUSER>`
