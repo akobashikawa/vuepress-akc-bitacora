@@ -1,6 +1,6 @@
 # 20230315: Node callback to async
 
-- Una función callback es la que tiene como último argumento un callback
+- Una **función callback** es la que tiene como último argumento un *callback*
 
 ```js
 aCallbackFunction(x, (err, data) => {
@@ -14,7 +14,7 @@ aCallbackFunction(x, (err, data) => {
 });
 ```
 
-- La llamada a una función callback se puede transformar en la llamada a una promise
+- La llamada a una función callback se puede transformar en la llamada a una **promise**
 
 ```js
 const aPromise = (x) => new Promise((resolve, reject) => {
@@ -37,7 +37,7 @@ aPromise(x)
 	});
 ```
 
-- La llamada a una promise se puede transfromar en una llamada async
+- La llamada a una promise se puede transfromar en una llamada **async**
 
 ```js
 const aAsyncFunction = async (x) => {
@@ -55,7 +55,7 @@ aAsyncFunction(x);
 
 ## promisify
 
-- En node, se puede usar promisify
+- En node, se puede usar **promisify**
 
 ```js
 const util = require('util');
@@ -63,7 +63,7 @@ const util = require('util');
 const aPromise = util.promisify(aCallbackFunction);
 ```
 
-- Como contraparte, existe callbackify, que permite obtener una función callback a partir de una función asyncrona (o que retorne una promesa)
+- Como contraparte, existe **callbackify**, que permite obtener una función callback a partir de una función asyncrona (o que retorne una promesa)
 
 ```js
 const util = require('util');
