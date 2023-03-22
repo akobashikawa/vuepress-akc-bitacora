@@ -1,5 +1,5 @@
 ---
-tags: ["javascript", "base64"]
+tags: ["javascript"]
 ---
 
 # 20230321: Base64 en Javascript

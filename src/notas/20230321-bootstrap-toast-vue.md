@@ -2,7 +2,7 @@
 tags: ["vue", "bootstrap"]
 ---
 
-# 20230321: Bootsrap Toast con Vue
+# 20230321: Bootstrap Toast con Vue
 
 <TagLinks />
 

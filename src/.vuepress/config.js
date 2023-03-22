@@ -76,9 +76,9 @@ module.exports = {
    */
   plugins: [
     ['@vuepress/google-analytics', { id: 'G-J2E28TZKWR', debug: true }],
-    // ['@vuepress/back-to-top'],
-    // ['@vuepress/medium-zoom'],
-    ['internal-link', { linkPattern: /\[\[([\w\s/-]+)(\|(([\w\s/-])+))?\]\]/ }]
+    ['internal-link', { linkPattern: /\[\[([\w\s/-]+)(\|(([\w\s/-])+))?\]\]/ }],
+    ['@vuepress/back-to-top'],
+    ['@vuepress/medium-zoom'],
   ]
 }
 
