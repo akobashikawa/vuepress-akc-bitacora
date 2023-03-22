@@ -4,6 +4,8 @@ tags: ["windows", "sqlserver", "troubleshooting"]
 
 # 20230308: Cómo cambiar el password a sa
 
+<TagLinks />
+
 - Por alguna razón, no recuerdo el password del usuario sa
 - Abro **powershell como admin**
 

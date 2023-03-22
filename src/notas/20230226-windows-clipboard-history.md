@@ -4,6 +4,8 @@ tags: ["windows", "tools"]
 
 # 20230226: Windows Clipboard History
 
+<TagLinks />
+
 ![](20230226-windows-clipboard-history.png)
 
 - El otro día ví que un amigo usaba algo así como un clipboard history picker.

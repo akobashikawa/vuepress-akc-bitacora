@@ -4,6 +4,8 @@ tags: ["github", "vuepress"]
 
 # 20230120: Github Actions
 
+<TagLinks />
+
 ## Github actions: Desplegando Vuepress
 
 - Después de varias horas intentando sin éxito las recetas de varios blogs, y del mismo marketplace de github, conversando con chatGPT llegué a esta solución.

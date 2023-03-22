@@ -4,6 +4,8 @@ tags: ["c", "windows"]
 
 # 20230308: Primeros pasos con C
 
+<TagLinks />
+
 ## Primeros pasos con C en Windows
 
 - [Introducción a Win32 y C++](https://docs.microsoft.com/es-es/windows/win32/learnwin32/learn-to-program-for-windows)

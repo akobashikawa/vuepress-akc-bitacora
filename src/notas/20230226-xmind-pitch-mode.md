@@ -4,6 +4,8 @@ tags: ["mindmap", "presentation", "tools"]
 
 # 20230226: Pitch mode en XMind
 
+<TagLinks />
+
 ![](20230226-xmind-pitch-mode.png)
 - En [XMind](https://xmind.app/), el modo **pitch** permite presentar una serie de diapositivas a partir del midmap.
 - Es una característica premium que se puede probar gratis.
