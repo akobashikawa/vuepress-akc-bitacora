@@ -16,6 +16,6 @@ atob('aG9sYQ==')
 
 - Se puede probar rápidamente en la **consola javascript** que está disponible en **Chrome** pulsando F12 ó CTRL + SHIFT + I.
 
-![](20230321-javascript-base64.png)
+![](20230322-javascript-base64.png)
 
 - Referencia: [How To Encode and Decode Strings with Base64 in JavaScript](https://www.digitalocean.com/community/tutorials/how-to-encode-and-decode-strings-with-base64-in-javascript)
