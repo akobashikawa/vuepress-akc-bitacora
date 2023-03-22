@@ -1,3 +1,7 @@
+---
+tags: ["windows", "tools"]
+---
+
 # 20230226: Windows Clipboard History
 
 ![](20230226-windows-clipboard-history.png)

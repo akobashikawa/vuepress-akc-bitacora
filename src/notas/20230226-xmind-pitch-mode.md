@@ -1,3 +1,7 @@
+---
+tags: ["mindmap", "presentation", "tools"]
+---
+
 # 20230226: Pitch mode en XMind
 
 ![](20230226-xmind-pitch-mode.png)

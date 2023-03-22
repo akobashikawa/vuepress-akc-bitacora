@@ -1,3 +1,7 @@
+---
+tags: ["windows", "sqlserver", "troubleshooting"]
+---
+
 # 20230308: Cómo cambiar el password a sa
 
 - Por alguna razón, no recuerdo el password del usuario sa

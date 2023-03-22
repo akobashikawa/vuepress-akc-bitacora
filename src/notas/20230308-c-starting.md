@@ -1,3 +1,7 @@
+---
+tags: ["c", "windows"]
+---
+
 # 20230308: Primeros pasos con C
 
 ## Primeros pasos con C en Windows

@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "vuepress"]
+---
+
 # 20230109: Regexp, Vuepress
 
 ## Javascript: regexp 101

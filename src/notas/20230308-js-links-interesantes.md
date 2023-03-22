@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "links"]
+---
+
 # 20230308: Javascript Links Interesantes
 
 - Javascript: APIs

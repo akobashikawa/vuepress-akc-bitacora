@@ -1,3 +1,7 @@
+---
+tags: ["clojure", "lisp"]
+---
+
 # 20230318: Clojure Tadam
 
 - **Tadam** es un framework simple para desarrollar web con *Clojure*

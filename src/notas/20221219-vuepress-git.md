@@ -1,3 +1,7 @@
+---
+tags: ["vuepress", "git"]
+---
+
 # 20221219: Vuepress, Git
 
 ## VuePress: Crear site

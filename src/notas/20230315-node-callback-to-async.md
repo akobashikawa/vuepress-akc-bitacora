@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "async"]
+---
+
 # 20230315: Node callback to async
 
 - Una **función callback** es la que tiene como último argumento un *callback*

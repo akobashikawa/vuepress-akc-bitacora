@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "angular", "bootstrap"]
+---
+
 # 20230226: Cómo usar el script de Bootstrap en Angular
 
 - Declarar el **script de bootstrap** en alguna parte. Por ejemplo en `index.html`

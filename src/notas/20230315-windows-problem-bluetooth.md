@@ -1,3 +1,7 @@
+---
+tags: ["windows", "troubleshooting"]
+---
+
 # 20230315: Problema con Bluetooth en Windows 10
 - Estaba apagado y no aparecía el control para encenderlo
 - Win + X (*Device Manager*) y en la lista no aparece *Bluetooth*

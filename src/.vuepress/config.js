@@ -43,6 +43,10 @@ module.exports = {
         link: '/notas/',
       },
       {
+        text: 'Tags',
+        link: '/tags/',
+      },
+      {
         text: 'Referencias',
         link: '/referencias/'
       },

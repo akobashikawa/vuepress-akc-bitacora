@@ -1,3 +1,7 @@
+---
+tags: ["vue", "bootstrap"]
+---
+
 # 20230321: Bootstrap Modal en Vue
 
 - Implementando un modal con bootstrap en vue.

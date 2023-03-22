@@ -1,3 +1,7 @@
+---
+tags: ["vue", "webapp"]
+---
+
 # 20230314: Vue ChatGPT
 
 - [https://github.com/akobashikawa/vue-chatgpt](https://github.com/akobashikawa/vue-chatgpt)

@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "express"]
+---
+
 # 20230321: Swagger autogen con controllers
 
 - [swagger-autogen](https://github.com/davibaltar/swagger-autogen) es un módulo que permite generar automáticamente documentación para swagger en un proyecto node.

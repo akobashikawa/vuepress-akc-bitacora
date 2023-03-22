@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "angular", "patterns"]
+---
+
 # 20230226: Compartir data entre componentes Angular
 
 - Se puede usar un data service para compartir data entre componentes no relacionados.

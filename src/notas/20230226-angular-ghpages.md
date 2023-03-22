@@ -1,3 +1,7 @@
+---
+tags: ["javascript", "angular", "github", "gh-pages"]
+---
+
 # 20230226: Deployar Angular en gh-pages
 
 - Instalo el módulo `gh-pages`

@@ -1,3 +1,7 @@
+---
+tags: ["github", "vuepress"]
+---
+
 # 20230120: Github Actions
 
 ## Github actions: Desplegando Vuepress

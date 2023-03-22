@@ -1,3 +1,7 @@
+---
+tags: ["vue", "bootstrap"]
+---
+
 # 20230321: Bootsrap Toast con Vue
 
 - Implementando un toast con bootstrap en vue.
