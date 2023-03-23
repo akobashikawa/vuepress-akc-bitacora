@@ -13,7 +13,7 @@
             </ul>
         </span> -->
         <span v-for="tag of tags">
-            <h2 :id="tag.key" :class="`tag tag-${tag.key}`">
+            <h2 :id="tag.key" :class="`mytag tag-${tag.key}`">
                 <router-link :to="{ path: `/tags.html#${tag.key}` }" class="header-anchor" aria-hidden="true">#</router-link>
                 {{ tag.key }}
             </h2>
