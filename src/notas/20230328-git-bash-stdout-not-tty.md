@@ -12,3 +12,5 @@ stdout is not a tty
 ```sh
 $ node.exe mssql-get-reservas.js  > reservas.json
 ```
+
+- Referencias: [stdout is not a tty](https://stackoverflow.com/a/62532536)
