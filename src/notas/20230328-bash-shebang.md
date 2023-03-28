@@ -1,3 +1,7 @@
+---
+tags: ["bash"]
+---
+
 # 20230328: Bash shebang
 
 - El **shebang** se coloca en la primera línea del script bash
