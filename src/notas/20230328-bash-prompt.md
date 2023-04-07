@@ -4,6 +4,8 @@ tags: ["bash"]
 
 # 20230328: Bash prompt
 
+<TagLinks />
+
 - Para que en el script se pregunte por una confirmación antes de ejecutar algo:
 
 ```sh
