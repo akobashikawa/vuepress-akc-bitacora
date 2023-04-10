@@ -4,6 +4,8 @@ tags: ["git", "bash", "troubleshooting"]
 
 # 20230328: Git Bash: stdout is not a tty
 
+<TagLinks />
+
 - Obtuve este mensaje en la consola git bash, al intentar guardar la salida de un programa node a un archivo.
 
 ```sh
