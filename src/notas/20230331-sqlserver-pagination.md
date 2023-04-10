@@ -1,3 +1,7 @@
+---
+tags: ["sqlserver", "sql"]
+---
+
 # 20230331: SqlServer Paginación
 
 - A un SELECT con ORDER se le puede agregar OFFSET para lograr la paginación.
