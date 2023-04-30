@@ -4,7 +4,9 @@ tags: ["historia", "programming", "calendar"]
 
 # Fechas faltantes por el ajuste de calendario
 
-- Hay fechas que no existen en nuestro calendario.
+![](20230430-calendario-dias-faltantes.png)
+
+- Hay **fechas que no existen** en nuestro calendario. Fíjate en **setiembre de 1752**.
 - Nuestro calendario tiene la particularidad de **no encajar exactamente** en el año solar.
 - Para compensar esto en el ***Calendario Juliano***, que se instauró en el gobierno de **Julio César** (el 1 de Enero del ahora numerado 46 AC), se estableció tener un **día adicional** **cada 4 años**, sin excepción.
 - A pesar de eso, hacia **1582**, durante el pontificado del **papa Gregorio XIII**, se tenía un notorio desfase de **10 días** y se procedió a instaurar un nuevo calendario corregido, que luego se denominó ***Calendario Gregoriano***.
