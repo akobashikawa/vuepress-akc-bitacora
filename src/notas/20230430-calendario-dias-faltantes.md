@@ -2,7 +2,7 @@
 tags: ["historia", "programming", "calendar"]
 ---
 
-# Fechas faltantes por el ajuste de calendario
+# 20230430: Fechas faltantes por el ajuste de calendario
 
 ![](20230430-calendario-dias-faltantes.png)
 
