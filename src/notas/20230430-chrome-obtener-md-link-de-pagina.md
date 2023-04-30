@@ -20,6 +20,6 @@ tags: ["chrome", "howto"]
 - Sin embargo, hay un par de extensiones de chrome que pueden facilitar esta tarea.
 	- [Copy Markdown Link - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-markdown-link/gkceaaphhbeanfciglgpffnncfpipjpa/related)
 		- Extensión que permite configurar un atajo del teclado para copiar el link de una página en formato markdown
-		- Hotkey por default CTRL + M
+		- Hotkey por default: CTRL + M
 	- [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn/related)
 		- Extensión que permite copiar el link de una página, o varias páginas, o de una imagen usando el mouse
