@@ -1,5 +1,8 @@
+---
+tags: ["chatgpt", "howto"]
+---
 
-# Cómo exportar los chats con ChatGPT
+# 20230511: Cómo exportar los chats con ChatGPT
 
 - En el menú. haciendo click en los tres puntos al lado del nombre, elegir *Settings*
 	- ![](20230511-chatgpt-export.png)
