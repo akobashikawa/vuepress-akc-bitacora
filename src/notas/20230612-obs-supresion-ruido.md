@@ -1,5 +1,5 @@
 ---
-tags: ["windows", "video", "sound"]
+tags: ["windows", "video", "sound", "obs", "howto"]
 ---
 
 # 20230612: Supresión de ruido en OBS
