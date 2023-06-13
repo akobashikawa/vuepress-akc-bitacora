@@ -1,0 +1,91 @@
+.inline-title {
+	background-color: rgba(255, 250, 150, 0.25);
+	padding-bottom: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	font-weight: normal;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-work,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-work,.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-aviva,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-aviva,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-royalsystems,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-royalsystems {
+	background-color: #088;
+}
+ {
+	background-color: #088;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-react,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-react {
+	background-color: #088;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-windows,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-windows {
+	background-color: #06f;
+}
+
+span[class*="cm-tag-log"] {
+	background-color: gray;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-links,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-links {
+	background-color: #36f;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-tailwind,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-tailwind {
+	background-color: yellow;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-published,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-published {
+	background-color: #fd0;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-youtube,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-youtube {
+	background-color: #822;
+}
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-agile,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-agile,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-pokayoke,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-pokayoke,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-ideas,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-ideas,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-howto,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-howto
+ {
+	background-color: teal;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-refactoring,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-refactoring,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-patterns,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-patterns,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-design,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-design
+ {
+	background-color: orange;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-oop,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-oop,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-java,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-java
+ {
+	background-color: #fa8;
+}
+
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-learning,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-learning,
+.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-udemy,
+.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-udemy
+ {
+	background-color: purple;
+}

@@ -12,7 +12,15 @@ TODOs.md
 
 # Editors
 .idea
-.obsidian
+
+# Obsidian
+**/.obsidian/plugins
+**/.obsidian/themes
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/graph.json
+.obsidian-git-data
+.trash/
 
 # VuePress temp directory
 .temp
