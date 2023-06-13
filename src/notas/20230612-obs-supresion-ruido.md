@@ -58,3 +58,13 @@
 
 ![](20230612-obs-supresion-ruido-11.png)
 
+- En OBS, seleccionar la fuente Mic/Aux, Properties y seleccionar a Krisp como micrófono
+
+![](20230612-obs-supresion-ruido-12.png)
+
+
+## Mi opinión
+
+- NVIDIA RTX Voice tiene bastantes opiniones positivas en la red. Me imagino que teniendo una tarjeta NVIDIA avanzada sería la de mejor desempeño. En mi caso, quizás la tarjeta no es tan potente. El instalador pesa más de 300 MB. Así que fue el que más trabajo me dio usar.
+- Krisp tiene una instalación más ligera y ha funcionado muy bien. Sin embargo aún estoy en el periodo de prueba y veré qué pasa luego.
+- VST tambi
