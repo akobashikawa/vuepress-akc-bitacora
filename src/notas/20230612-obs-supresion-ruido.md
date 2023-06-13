@@ -63,8 +63,9 @@
 ![](20230612-obs-supresion-ruido-12.png)
 
 
-## Mi opinión
+## Mis opiniones
 
 - NVIDIA RTX Voice tiene bastantes opiniones positivas en la red. Me imagino que teniendo una tarjeta NVIDIA avanzada sería la de mejor desempeño. En mi caso, quizás la tarjeta no es tan potente. El instalador pesa más de 300 MB. Así que fue el que más trabajo me dio usar.
 - Krisp tiene una instalación más ligera y ha funcionado muy bien. Sin embargo aún estoy en el periodo de prueba y veré qué pasa luego.
-- VST tambi
+- VST también ha funcionado muy bien. Requiere que configuremos un poco más, pero la parte de detección de ruido hace que podamos incorporar como ruido algo arbitrario, lo que me parece interesante.
+- El Noise Suppression que viene con el OBS también ha funcionado muy bien. No hay que instalar nada, así que es la opción más sencilla.
