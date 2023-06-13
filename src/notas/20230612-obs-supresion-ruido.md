@@ -1,3 +1,7 @@
+---
+tags: ["windows", "video", "sound"]
+---
+
 # 20230612: Supresión de ruido en OBS
 
 ## Mic Filter: Noise Suppression
