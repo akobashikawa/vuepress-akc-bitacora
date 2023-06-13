@@ -4,5 +4,7 @@
   "spellcheckLanguages": [
     "en-US",
     "es-US"
-  ]
+  ],
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
 }
