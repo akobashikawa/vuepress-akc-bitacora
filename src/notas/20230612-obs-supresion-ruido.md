@@ -29,3 +29,9 @@
 	- [NVIDIA RTX Voice: Setup Guide | GeForce News | NVIDIA](https://www.nvidia.com/en-us/geforce/guides/nvidia-rtx-voice-setup-guide/)
 	- Se puede instalar directamente en Windows 10
 		- En algunos tutoriales se sugiere un truco de instalación que, felizmente ya no es necesario con la nueva versión.
+
+- En NVIDIA RTX Voice, elegir el micrófono y marcar Noise Suppression
+
+![](20230612-obs-supresion-ruido-5.png)
+
+- En OBS, seleccionar la fuente MIc
