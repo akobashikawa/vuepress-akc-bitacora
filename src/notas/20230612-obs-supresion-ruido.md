@@ -8,6 +8,12 @@
 
 ![](20230612-obs-supresion-ruido-1.png)
 
+- Para monitorear con unos audífonos la salida, elegir la fuente Mic/Aux, Menú de los tres puntos, Advanced Audio Properties
+
+![](20230612-obs-supresion-ruido-7.png)
+
+![](20230612-obs-supresion-ruido-8.png)
+
 ## Mic Filter: VST Plugin
 
 - Instalar el plugin VST
@@ -34,4 +40,8 @@
 
 ![](20230612-obs-supresion-ruido-5.png)
 
-- En OBS, seleccionar la fuente MIc
+- En OBS, seleccionar la fuente MIc/Aux y elegir como micrófono a NVIDIA RTX Voice
+
+![](20230612-obs-supresion-ruido-6.png)
+
+- En mi caso, se introducía un ruido entrecortado. Lo soluc
