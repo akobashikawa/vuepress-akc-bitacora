@@ -44,4 +44,11 @@
 
 ![](20230612-obs-supresion-ruido-6.png)
 
-- En mi caso, se introducía un ruido entrecortado. Lo soluc
+- En mi caso, se introducía un ruido entrecortado. Lo solucioné entrando a Windows Settings, Graphics Settings y configurando OBS para High performance, en lugar del Power saving que estaba
+
+![](20230612-obs-supresion-ruido-9.png)
+
+![](20230612-obs-supresion-ruido-10.png)
+
+## Kris
+
