@@ -9,8 +9,10 @@
 }
 
 /* cm-active HyperMD-header HyperMD-header-1 cm-line */
+.cm-contentContainer .HyperMD-header.HyperMD-header-1,
 .markdown-reading-view h1 {
-	color: lime;
+	font-weight: normal;
+	text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
 }
 
 .cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-work,
