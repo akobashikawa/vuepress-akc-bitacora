@@ -8,14 +8,16 @@
 	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* cm-active HyperMD-header HyperMD-header-1 cm-line */
+.markdown-reading-view h1 {
+	color: lime;
+}
+
 .cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-work,
 .cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-work,.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-aviva,
 .cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-aviva,
 .cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-royalsystems,
 .cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-royalsystems {
-	background-color: #088;
-}
- {
 	background-color: #088;
 }
 
@@ -60,7 +62,7 @@ span[class*="cm-tag-log"] {
 .cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-ideas,
 .cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-meta.cm-tag-howto,
 .cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-howto
- {
+{
 	background-color: teal;
 }
 
