@@ -7,7 +7,7 @@ tags: ["windows", "video", "sound", "obs", "howto"]
 ## Mic Filter: Noise Suppression
 
 - Seleccionar la fuente Mic/Aux, Filter Add, **Noise Suppression**
-- 
+
 ![](20230612-obs-supresion-ruido.png)
 
 ![](20230612-obs-supresion-ruido-1.png)
