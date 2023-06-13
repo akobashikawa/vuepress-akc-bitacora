@@ -1,4 +1,8 @@
 {
   "newFileLocation": "current",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "spellcheckLanguages": [
+    "en-US",
+    "es-US"
+  ]
 }
