@@ -50,5 +50,11 @@
 
 ![](20230612-obs-supresion-ruido-10.png)
 
-## Kris
+## Krisp.ai
+
+- En Krisp, abrir una cuenta e instalar el software
+	- [World’s #1 Noise Cancelling App | Krisp](https://krisp.ai/)
+- En la aplicación, elegir el micrófono
+
+![](20230612-obs-supresion-ruido-11.png)
 
