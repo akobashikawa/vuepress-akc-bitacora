@@ -1,10 +1,11 @@
 {
-  "newFileLocation": "current",
+  "useMarkdownLinks": true,
   "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
   "spellcheckLanguages": [
     "en-US",
     "es-US"
   ],
-  "useMarkdownLinks": true,
-  "alwaysUpdateLinks": true
+  "showLineNumber": true
 }

@@ -1,0 +1,8 @@
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "src/.vuepress/public/assets",
+  "showLineNumber": true,
+  "userIgnoreFilters": [
+    "/node_modules/"
+  ]
+}
