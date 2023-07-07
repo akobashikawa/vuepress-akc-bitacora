@@ -14,7 +14,7 @@ tags: ["english", "storytelling"]
 
 - En inglés americano, lo usual es escribir las comas dentro de las comillas:
 
-"At last,"" sighed the one who had been God.
+"At last," sighed the one who had been God.
 
 ## Referencias
 
