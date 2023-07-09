@@ -1,5 +1,5 @@
 ---
-tags: ["vue", "vite"", "howto"]
+tags: ["vue", "vite", "howto"]
 ---
 # 20230709: Vite Bootstrap Vue
 
