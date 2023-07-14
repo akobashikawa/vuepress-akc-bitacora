@@ -61,7 +61,8 @@ async function bootstrap() {
 bootstrap();
 ```
 
-- - http://localhost:3000/apidoc
+- http://localhost:3000/apidoc
+- http://localhost:3000/apidoc-json
 
 ## REPL
 
