@@ -3,9 +3,6 @@
   "attachmentFolderPath": "./",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "spellcheckLanguages": [
-    "en-US",
-    "es-US"
-  ],
+  "spellcheckLanguages": null,
   "showLineNumber": true
 }
