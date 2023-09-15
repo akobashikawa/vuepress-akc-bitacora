@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: akc-bitacora.netlify.app
+Token: 5c1551eb248c751bc24a393525f3041d09760a1fbd0fae1822b74fb572a4f7c3
