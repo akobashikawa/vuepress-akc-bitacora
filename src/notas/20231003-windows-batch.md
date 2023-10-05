@@ -1,5 +1,5 @@
 ---
-tags: ["programming", "batch", "widows"]
+tags: ["programming", "batch", "windows"]
 ---
 
 # 20231003: Windows: Referencia rápida para programar batch scripts
