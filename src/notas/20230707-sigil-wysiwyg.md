@@ -3,6 +3,8 @@ tags: ["ebooks", "howto"]
 ---
 # 20230707: Sigil WYSIWYG
 
+<TagLinks />
+
 - Sigil es, básicamente, un editor de ebooks
 - En muchos de los tutoriales que se encuentran en la web, aparece la opción de edición en modo WYSIWYG, es decir, lo que vemos es lo que obtenemos.
 - Sin embargo, al descargar la versión más reciente de Sigil, lo que vemos es código XHTML y un preview al lado. Qué ha pasado?

@@ -1,9 +1,10 @@
 ---
-tags:
-  - networking
+tags: ["networking"]
 ---
 
 # 20240322: Gherkin, Chrome Tabs
+
+<TagLinks />
 
 ## Gherkin
 

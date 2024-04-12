@@ -1,10 +1,10 @@
 ---
-tags:
-  - windows
-  - tools
+tags: ["windows", "tools"]
 ---
 
 # 20240321: Windows Powertoys Hotkeys
+
+<TagLinks />
 
 ## Hotkeys
 

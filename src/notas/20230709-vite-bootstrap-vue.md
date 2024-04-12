@@ -3,6 +3,8 @@ tags: ["vue", "vite", "howto"]
 ---
 # 20230709: Vite Bootstrap Vue
 
+<TagLinks />
+
 - bootstrap-vue facilita usar bootstrap 4 con vue2
 - Es posible usar bootstrap-vue con vue3, usando @vue/compat
 

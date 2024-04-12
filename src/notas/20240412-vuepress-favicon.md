@@ -1,9 +1,10 @@
 ---
-tags:
-  - vitepress
+tags: ["vitepress"]
 ---
 
 # 20240412: Vitepress favicon
+
+<TagLinks />
 
 - Tengo un site vitepress pero no tiene favicon
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/)

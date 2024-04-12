@@ -4,6 +4,8 @@ tags: ["javascript", "howto"]
 
 # 20230614: Cómo mostrar una hora con dos dígitos usando padStart
 
+<TagLinks />
+
 `padStart(n, c)`
 	Permite anteceder una cadena del caracter c especificado hasta completar la longitud n especificada
 

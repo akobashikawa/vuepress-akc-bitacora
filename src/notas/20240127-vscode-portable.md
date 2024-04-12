@@ -1,9 +1,9 @@
 ---
-tags:
-  - vscode
-  - windows
+tags: ["vscode", "windows"]
 ---
 # 20240127: VSCode Portable
+
+<TagLinks />
 
 - Observo que mis archivos en `C:\Users\KobashikawaA\.vscode` ocupan bastante espacio.
 - Quisiera que vscode usara mejor el mayor espacio libre que tengo en el drive `D:`

@@ -4,6 +4,8 @@ tags: ["windows", "howto"]
 
 # 20230511: Cómo hacer zooming (magnify) en Windows 10
 
+<TagLinks />
+
 - WIN + PLUS/MINUS
 	- Activa el ***Magnifier***
 	- ![](20230511-windows-zooming-magnify.png)

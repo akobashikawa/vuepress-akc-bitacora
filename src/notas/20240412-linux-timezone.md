@@ -1,9 +1,10 @@
 ---
-tags:
-  - linux
+tags: ["linux"]
 ---
 
 # 20240412: Linux timezone
+
+<TagLinks />
 
 - Uso Linux Ubuntu 22.04
 - La hora está expresada según GMT 0

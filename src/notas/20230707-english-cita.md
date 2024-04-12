@@ -4,6 +4,8 @@ tags: ["english", "storytelling"]
 
 # 20230707: Citas en Inglés
 
+<TagLinks />
+
 ## En español
 
 - En español, en una historia, es usual escribir las comas después de las comillas:

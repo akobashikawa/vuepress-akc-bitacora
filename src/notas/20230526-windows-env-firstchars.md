@@ -4,6 +4,8 @@ tags: ["windows", "console", "tips", "howto"]
 
 # 20230526: En Windows, ¿Cómo obtener los primeros n caracteres de una variable de entorno?
 
+<TagLinks />
+
 - Empleando el sufijo `:~0,n`
 - Ejemplos:
 	- Cambiarse al drive correspondiente a JENKINS_HOME:

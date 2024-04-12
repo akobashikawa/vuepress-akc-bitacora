@@ -4,6 +4,8 @@ tags: ["historia", "programming", "calendar"]
 
 # 20230430: Fechas faltantes por el ajuste de calendario
 
+<TagLinks />
+
 ![](20230430-calendario-dias-faltantes.png)
 
 - Hay **fechas que no existen** en nuestro calendario. Fíjate en **setiembre de 1752**.

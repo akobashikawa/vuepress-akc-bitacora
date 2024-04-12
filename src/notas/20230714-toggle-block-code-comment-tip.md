@@ -4,6 +4,8 @@ tags: ["programming", "tips"]
 
 # 20230714: Tip para comentar/descomentar fácilmente un bloque de código
 
+<TagLinks />
+
 Expondré esta idea para javascript, pero funciona del mismo modo en lenguajes similares, como java y C.
 
 - Sabemos que para comentar una línea, usamos el marcador de comentario simple, el doble slash (`//`), al inicio del comentario
