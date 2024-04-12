@@ -13,9 +13,11 @@ tags:
 
 ```sh
 date
-tzselect
+sudo tzselect
 # elijo America, Peru
 # eso detemina America/Lima
+# me indica que establezca en el profile
+# la variable de entorno TZ con ese valor
 sudo vim /etc/profile
 # export TZ='America/Lima'
 # vuelvo a hacer login
