@@ -1,5 +1,5 @@
 ---
-tags: ["networking"]
+tags: ["bdd", "tools"]
 ---
 
 # 20240322: Gherkin, Chrome Tabs
