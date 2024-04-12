@@ -6,8 +6,8 @@ tags:
 # 20240412: Linux timezone
 
 - Uso Linux Ubuntu 22.04
-- La hora estaba siendo expresada según GMT 0
-	- Es decir, cuando en Lima son las 07:00 horas, el sistema muestra 5 horas más: 12:00 horas
+- La hora está expresada según GMT 0
+	- Por ejemplo, cuando en Lima son las 07:00 horas, el comando `date` muestra 5 horas más: 12:00 horas
 - Cambio el timezone a America/Lima
 	- [4 Ways to Change the Timezone in Linux - wikiHow](https://www.wikihow.com/Change-the-Timezone-in-Linux)
 
@@ -23,3 +23,5 @@ sudo vim /etc/profile
 # vuelvo a hacer login
 date
 ```
+
+- Luego de volver a ingresar, el comando `date` muestra la hora expresada en mi timezone local.
